@@ -1,7 +1,7 @@
 
 # HTMLImport.js
 
-A tiny JavaScript library that adds a `<import src="…">` tag to HTML, enabling reusable HTML partials with relative and nested imports.
+A tiny JavaScript library that adds an `<import src="…">` tag to HTML, enabling reusable HTML partials with relative and nested imports.
 
 > This library must be served over HTTP as browsers block `fetch()` on `file://`.
 ## Features

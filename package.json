@@ -1,0 +1,22 @@
+{
+  "name": "htmlimport",
+  "version": "1.0.0",
+  "description": "A tiny JavaScript library that adds an <import> tag to HTML",
+  "main": "htmlimport.js",
+  "files": [
+    "htmlimport.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "html", "import",
+    "partials", "include",
+    "polyfill", "frontend"
+  ],
+  "license": "BSD-3-Clause",
+  "author": "juanvel400",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanvel4000/htmlimport.js"
+  }
+}
