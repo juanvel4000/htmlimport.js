@@ -1,0 +1,16 @@
+/.vscode/
+/.github/
+*.code-workspace
+.idea/
+*.swp
+*.swo
+*.history/
+
+*.bak
+*.env
+.htaccess
+*.tmp
+
+.DS_Store
+Thumbs.db
+Desktop.ini
