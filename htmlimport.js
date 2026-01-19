@@ -7,7 +7,7 @@
         const url = new URL(src, parentURL);
 
         try {
-            const res = await fetch(src);
+            const res = await fetch(url);
 
             if (!res.ok)
                 throw new Error(`failed to fetch ${src}`);
