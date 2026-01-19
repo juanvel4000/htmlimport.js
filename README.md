@@ -1,0 +1,36 @@
+
+# HTMLImport.js
+
+A tiny JavaScript library that adds a `<import src="…">` tag to HTML, enabling reusable HTML partials with relative and nested imports.
+
+> This library must be served over HTTP as browsers block `fetch()` on `file://`.
+## Features
+
+- `<import src="…">` tag support
+- Relative and nested imports
+- Lightweight, dependency-free library
+- Intended as a pragmatic polyfill, not a framework
+- Works in all modern browsers
+## Example
+
+View the demo in the `demo/` directory in this repository for a better example.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTMLImport.js Test</title>
+        <script src="./htmlimport.js"></script>
+    </head>
+    <body>
+        <import src="components/welcome.html"></import>
+        <import src="components/lorem.html"></import>
+    </body>
+</html>
+```
+
+
+## License
+
+**HTMLImport.js** uses the [BSD 3-Clause](https://spdx.org/licenses/BSD-3-Clause.html) License
+
