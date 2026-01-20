@@ -1,7 +1,7 @@
 
 # HTMLImport.js
 
-A tiny JavaScript library that adds an `<import src="…">` tag to HTML, enabling reusable HTML partials with relative and nested imports.
+A tiny JavaScript library that adds a `<import src="…">` tag to HTML, enabling reusable HTML partials with relative and nested imports.
 
 > This library must be served over HTTP as browsers block `fetch()` on `file://`.
 ## Features
@@ -11,6 +11,20 @@ A tiny JavaScript library that adds an `<import src="…">` tag to HTML, enablin
 - Lightweight, dependency-free library
 - Intended as a pragmatic polyfill, not a framework
 - Works in all modern browsers
+## Installation
+
+Install using npm
+
+```bash
+npm install https://github.com/juanvel4000/htmlimport.js.git
+```
+
+Or, import it using `JSDelivr`
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/juanvel4000/htmlimport.js/htmlimport.js"></script>
+```
+    
 ## Example
 
 View the demo in the `demo/` directory in this repository for a better example.
