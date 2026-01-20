@@ -1,5 +1,5 @@
 {
-  "name": "htmlimport",
+  "name": "@juanvel4000/htmlimport",
   "version": "1.0.0",
   "description": "A tiny JavaScript library that adds an <import> tag to HTML",
   "main": "htmlimport.js",
